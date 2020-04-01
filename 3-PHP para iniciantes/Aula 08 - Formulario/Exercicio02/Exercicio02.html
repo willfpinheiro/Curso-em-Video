@@ -1,0 +1,30 @@
+<!-- Ler Nome , Ano de Nascimento e Sexo da pessoa,mostrando a sua idade atual -->
+
+<!Doctype html>
+
+<html lang = "pt-br">
+
+	<head>
+		<meta charset = "utf-8">
+	</head>
+
+	<body>
+
+		<form method = "GET" action = "dados2.php">
+			Nome:				<input type = "text" name = "nome" >			</br>
+			Ano de Nascimento: 	<input type = "number" name = "ano_nasc">		</br>
+
+			<fieldset>
+				<legend> Sexo </legend>			
+					<input type = "radio" name = "sexo" value = "Masculino" id = "H"> <label for = "H"> Masculino </label>
+					<input type = "radio" name = "sexo" value = "Feminino" id = M>  <label for = M> Feminino </label>
+
+			</fieldset>
+				
+			</br>	
+			<input type = "submit" value = "Enviar">	
+		</form>
+
+	</body>
+
+</html>
