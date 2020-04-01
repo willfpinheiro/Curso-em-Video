@@ -1,0 +1,28 @@
+<!-- Código JavaScript mais simplificado.Mandando o diretorio da imagem atraves de parametros para a funcao -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript - Mais simplificado</title>
+	<script>
+		function mudarLampada(diretorio){
+			var quebrada = false;
+			if(!quebrada){
+				document.getElementById("lampada").src = diretorio+".jpg";
+				if(diretorio == "lampada-quebrada"){
+					quebrada = true;
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Modificando a lâmpada</h1>
+
+	<img src="lampada-apagada.jpg" id="lampada"
+		onmousemove="mudarLampada('lampada-acesa')"
+		onmouseout="mudarLampada('lampada-apagada')"
+		onclick="mudarLampada('lampada-quebrada')">
+</body>
+</html>

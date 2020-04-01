@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+form{
+	width: 500px;
+	margin: auto;
+}
+
+/* Configuraçõe do input e textarea*/
+input,textarea{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.8);
+}
+
+input:hover,textarea:hover{
+	background-color: rgba(136,136,136,.3);
+}
+
+
+/* Legenda */
+legend{
+	font-family: sans-serif;
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+}
+
+/* Todos os fieldsets */
+form fieldset{
+	border-color: #cecece;
+	margin: 20px;
+}
+
+/* Inserindo imagens nos fieldsets (cada um) */
+form fieldset#usuario{
+	background: url('../_imagens/icone-contato.png') no-repeat 95% 95%;
+}
+
+	form fieldset#sexo{
+		width: 120px;
+	}
+
+form fieldset#endereco{
+	background: url('../_imagens/icone-endereco.png') no-repeat 95% 95%;
+}
+
+form fieldset#mensagem{
+	background: url('../_imagens/icone-mensagem.png') no-repeat 95% 95%;
+}
+	/*Formatando a caixa de comentário */
+	form textarea{
+		display: block;
+		width: 350px;
+		height: 70px;
+		margin: auto;
+		resize: none; /* Retira o redimensionamento */
+	}
+
+form fieldset#pedido{
+	background: url('../_imagens/icone-pagamento.png') no-repeat 95% 95%;
+}
+
+/* Botão */
+form input#btnEnviar{
+	display: block;
+	margin: auto;
+}

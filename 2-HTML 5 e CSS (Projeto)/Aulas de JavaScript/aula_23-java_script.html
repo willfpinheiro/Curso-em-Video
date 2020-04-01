@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript - Manipulado Objetos</title>
+		<script>
+			function acenderLampada(){
+				document.getElementById("lampada").src = "lampada-acesa.jpg";
+			}
+
+			function apagarLampada(){
+				document.getElementById("lampada").src = "lampada-apagada.jpg";
+			}
+
+			function quebrarLampada(){
+				document.getElementById("lampada").src = "lampada-quebrada.jpg";
+			}
+		</script>
+	</head>
+	
+	<body>
+		<h1>Acenda a lâmpada</h1>
+
+		<img src="lampada-apagada.jpg" id="lampada"  onmousemove="acenderLampada()" onmouseout="apagarLampada()" onclick="quebrarLampada()">	
+	</body>
+</html>

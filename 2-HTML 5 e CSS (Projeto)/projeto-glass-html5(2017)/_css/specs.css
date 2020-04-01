@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+section#conteudo{
+	width: 900px;
+	margin: auto;
+}
+
+iframe#frame-espec{
+	width: 380px;
+	height: 280px;
+	border: none;
+}
+
+
+/* Para ocultar a barra de rolagem do IFRAME insira o parametro scrolling="no" na tag IFRAME */

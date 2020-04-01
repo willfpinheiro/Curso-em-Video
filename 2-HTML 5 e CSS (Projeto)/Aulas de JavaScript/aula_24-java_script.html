@@ -1,0 +1,37 @@
+<!-- Código JavaScript simplificado.Mandando valores a partir de paramentros para a funcao -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript</title>
+	</head>
+	<script>
+		function mudarLampada(tipo){
+			var quebrada = false; //Conceito de Máquina de Estados
+
+			if(tipo == 1){
+				arquivo = "lampada-acesa.jpg"; //variavel
+			}else if(tipo == 2){
+				arquivo = "lampada-apagada.jpg"; //variavel
+			}else if(tipo == 3){
+				arquivo = "lampada-quebrada.jpg"; //variavel
+			}
+
+			if(!quebrada){	
+				document.getElementById("lampada").src = arquivo;
+				if(tipo == 3){
+					quebrada = true;
+				}
+			}	
+		}
+	</script>
+	<body>
+		<h1>Modificando a lâmpada</h1>
+
+		<img src="lampada-apagada.jpg" id="lampada" 
+			onmouseover="mudarLampada(1)" 
+			onmouseout="mudarLampada(2)" 
+			onclick="mudarLampada(3)">	
+	</body>
+</html>
