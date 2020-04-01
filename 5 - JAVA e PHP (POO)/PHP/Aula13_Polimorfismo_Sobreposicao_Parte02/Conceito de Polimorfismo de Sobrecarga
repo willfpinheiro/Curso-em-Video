@@ -1,0 +1,11 @@
+								Polimorfismo	
+
+Sobreposição:
+	*Mesma assinatura
+	*Classes Diferentes
+
+Sobrecarga: 
+	* Assinaturas diferentes
+	* Mesma classe
+
+Obs: A linguagem PHP não supota polimorfismo de sobrecarga.

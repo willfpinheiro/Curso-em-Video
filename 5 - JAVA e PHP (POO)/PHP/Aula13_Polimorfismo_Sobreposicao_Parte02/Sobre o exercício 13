@@ -1,0 +1,14 @@
+falar frase = * agradável: abanar e latir
+			  * agressiva: rosnar
+
+horário do dia: * manhã: abanar
+				* tarde: abanar e latir
+				* noite: ignorar
+
+dono:			*é dono: abanar
+				*não é dono: rosnar e latir
+
+idade e peso: * novo e leve: abanar
+			  * novo e pesado: latir
+			  * velho e leve: rosnar
+			  *	velho e pesado: ignorar		 

@@ -1,0 +1,19 @@
+CC (Conta Corrente) 
+
+CP (Conta Poupança) 
+
+abrirConta() - CC R$ 50,00
+			   CP R$ 150,00	
+
+fecharConta() - Não tem que ter saldo e não pode está no débito.
+
+depositar() - Precisa da conta aberta.
+
+sacar() - Precisa da conta aberta e também saldo suficiente.
+
+pagarMensalidade()- Conta Corrente R$12,00
+					Conta Poupança R$20,00
+
+
+Construtor() - Status = false 
+			   Saldo  = 0	
